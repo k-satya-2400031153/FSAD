@@ -1,9 +1,9 @@
-package com.klu;
+package com.fsads3;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.Statement;
 import java.sql.SQLException;
+import java.sql.Statement;
 public class JDBCCreate {
     public static void main(String[] args) {
         // It's common to include connection options to avoid SSL/timezone warnings on recent MySQL versions

@@ -1,4 +1,4 @@
-package com.klu;
+package com.fsads3;
 
 import java.sql.*;
 import java.util.Scanner;
@@ -114,8 +114,6 @@ public class JDBCCrud {
             e.printStackTrace();
         }
     }
-
-    // ================= READ (JOIN) =================
     static void viewEmployees() {
         try (Connection con = DriverManager.getConnection(url, user, password)) {
 
@@ -163,8 +161,6 @@ public class JDBCCrud {
             e.printStackTrace();
         }
     }
-
-    // ================= DELETE =================
     static void deleteEmployee() {
         try (Connection con = DriverManager.getConnection(url, user, password)) {
 
